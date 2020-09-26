@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP", "APP\APP.csproj", "{4C9BCBD3-1837-4C52-BDE2-03A5C710B61E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7107F77F-BA83-449F-BD70-69A59A6DB1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingService", "Services\LoggingService\LoggingService.csproj", "{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,20 @@ Global
 		{4C9BCBD3-1837-4C52-BDE2-03A5C710B61E}.Release|x64.Build.0 = Release|Any CPU
 		{4C9BCBD3-1837-4C52-BDE2-03A5C710B61E}.Release|x86.ActiveCfg = Release|Any CPU
 		{4C9BCBD3-1837-4C52-BDE2-03A5C710B61E}.Release|x86.Build.0 = Release|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Release|x64.Build.0 = Release|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE9D7F8B-E171-4400-8EF3-43FE8ECAFD3F} = {7107F77F-BA83-449F-BD70-69A59A6DB1B1}
 	EndGlobalSection
 EndGlobal

@@ -16,8 +16,8 @@ Services/Data/bin
 Services/Data/obj
 Services/Helper/bin
 Services/Helper/obj
-Services/Logging/bin
-Services/Logging/obj
+Services/LoggingService/bin
+Services/LoggingService/obj
 Makefile
 APP/ClientApp/.angulardoc.json
 APP/ClientApp/ssl
